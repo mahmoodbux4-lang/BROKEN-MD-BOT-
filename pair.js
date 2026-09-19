@@ -18,7 +18,6 @@ const _ = require('lodash')
 const {
 Boom
 } = require('@hapi/boom')
-const PhoneNumber = require('923203734432')
 let phoneNumber = "923203734432";
 const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code");
 const useMobile = process.argv.includes("--mobile");
